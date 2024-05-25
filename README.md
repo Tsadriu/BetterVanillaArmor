@@ -29,7 +29,7 @@ Iron armor is the most common type of armor, typically used during the early and
 	* +2% attack speed.
 
 ## Chainmail armor
-Chainmail armor, while available in the game and occasionally found in treasure chests or obtained from mobs, offers no additional benefits over iron armor despite its rarity. To enhance its utility and justify its rarity, this armor set has been revamped to facilitate exploration. When wearing the full set, you will automatically "climb" blocks up to 1.25 blocks high (e.g., a block and a slab) and receive a 4% permanent increase in movement speed.
+Chainmail armor, while available in the game and occasionally found in treasure chests or obtained from mobs, offers no additional benefits over iron armor despite its rarity. To enhance its utility and justify its rarity, this armor set has been revamped to facilitate exploration. When wearing the full set, you will automatically "climb" blocks up to 1.25 blocks high (e.g., a block and a slab) and receive a 4% permanent increase in movement speed. Additionally, the crafting recipe has also been added.
 ### Specifics
 * Helmet:
 	* +0.25 block height climb
