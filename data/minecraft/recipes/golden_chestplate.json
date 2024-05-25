@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:golden_chestplate",
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [
+              0,
+              0,
+              0,
+              403
+            ],
+            "name": "Armor",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:player.block_break_speed",
+            "uuid": [
+              0,
+              0,
+              0,
+              404
+            ],
+            "name": "Break Speed",
+            "amount": 1.5,
+            "operation": "add_value",
+            "slot": "chest"
+          }
+        ],
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "X#X",
+    "# #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "#": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "minecraft:chainmail_helmet",
+    "count": 1,
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [
+              0,
+              0,
+              0,
+              307
+            ],
+            "name": "Armor",
+            "amount": 2,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "type": "minecraft:generic.step_height",
+            "uuid": [
+              0,
+              0,
+              0,
+              308
+            ],
+            "name": "Step Height",
+            "amount": 0.25,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "type": "minecraft:generic.movement_speed",
+            "uuid": [
+              0,
+              0,
+              0,
+              309
+            ],
+            "name": "Speed",
+            "amount": 0.005,
+            "operation": "add_value",
+            "slot": "head"
+          }
+        ],
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

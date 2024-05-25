@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_chestplate",
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor_toughness",
+            "uuid": [
+              0,
+              0,
+              0,
+              805
+            ],
+            "name": "Toughness",
+            "amount": 2,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [
+              0,
+              0,
+              0,
+              806
+            ],
+            "name": "Armor",
+            "amount": 8,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:player.block_interaction_range",
+            "uuid": [
+              0,
+              0,
+              0,
+              807
+            ],
+            "name": "Placement Range",
+            "amount": 1,
+            "operation": "add_value",
+            "slot": "chest"
+          },
+          {
+            "type": "minecraft:player.entity_interaction_range",
+            "uuid": [
+              0,
+              0,
+              0,
+              808
+            ],
+            "name": "Entity Range",
+            "amount": 1,
+            "operation": "add_value",
+            "slot": "chest"
+          }
+        ],
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

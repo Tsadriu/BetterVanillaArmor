@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_helmet",
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [
+              0,
+              0,
+              0,
+              205
+            ],
+            "name": "Armor",
+            "amount": 2,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "type": "minecraft:generic.attack_speed",
+            "uuid": [
+              0,
+              0,
+              0,
+              206
+            ],
+            "name": "Attack Speed",
+            "amount": 0.3,
+            "operation": "add_value",
+            "slot": "head"
+          }
+        ],
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

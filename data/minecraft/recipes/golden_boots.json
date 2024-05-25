@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:golden_boots",
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [
+              0,
+              0,
+              0,
+              401
+            ],
+            "name": "Armor",
+            "amount": 1,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "type": "minecraft:player.block_break_speed",
+            "uuid": [
+              0,
+              0,
+              0,
+              402
+            ],
+            "name": "Break Speed",
+            "amount": 0.25,
+            "operation": "add_value",
+            "slot": "feet"
+          }
+        ],
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

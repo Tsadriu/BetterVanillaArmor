@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "# #",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "#": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "minecraft:chainmail_boots",
+    "count": 1,
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [
+              0,
+              0,
+              0,
+              301
+            ],
+            "name": "Armor",
+            "amount": 1,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "type": "minecraft:generic.step_height",
+            "uuid": [
+              0,
+              0,
+              0,
+              302
+            ],
+            "name": "Step Height",
+            "amount": 0.25,
+            "operation": "add_value",
+            "slot": "feet"
+          },
+          {
+            "type": "minecraft:generic.movement_speed",
+            "uuid": [
+              0,
+              0,
+              0,
+              303
+            ],
+            "name": "Speed",
+            "amount": 0.005,
+            "operation": "add_value",
+            "slot": "feet"
+          }
+        ],
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

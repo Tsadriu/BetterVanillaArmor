@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "minecraft:diamond_helmet",
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor_toughness",
+            "uuid": [
+              0,
+              0,
+              0,
+              809
+            ],
+            "name": "Toughness",
+            "amount": 2,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [
+              0,
+              0,
+              0,
+              810
+            ],
+            "name": "Armor",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "type": "minecraft:player.block_interaction_range",
+            "uuid": [
+              0,
+              0,
+              0,
+              811
+            ],
+            "name": "Placement Range",
+            "amount": 0.5,
+            "operation": "add_value",
+            "slot": "head"
+          },
+          {
+            "type": "minecraft:player.entity_interaction_range",
+            "uuid": [
+              0,
+              0,
+              0,
+              812
+            ],
+            "name": "Entity Range",
+            "amount": 0.5,
+            "operation": "add_value",
+            "slot": "head"
+          }
+        ],
+        "show_in_tooltip": true
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_leggings",
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:generic.armor",
+            "uuid": [
+              0,
+              0,
+              0,
+              207
+            ],
+            "name": "Armor",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "legs"
+          },
+          {
+            "type": "minecraft:generic.attack_speed",
+            "uuid": [
+              0,
+              0,
+              0,
+              208
+            ],
+            "name": "Attack Speed",
+            "amount": 0.3,
+            "operation": "add_value",
+            "slot": "legs"
+          }
+        ],
+        "show_in_tooltip": true
+      }
+    }
+  }
+}
