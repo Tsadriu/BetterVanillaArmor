@@ -29,7 +29,7 @@ Iron armor is the most common type of armor, typically used during the early and
 	* +2% attack speed.
 
 ## Chainmail armor
-Chainmail armor, while available in the game and occasionally found in treasure chests or obtained from mobs, offers no additional benefits over iron armor despite its rarity. To enhance its utility and justify its rarity, this armor set has been revamped to facilitate exploration. When wearing the full set, you will automatically "climb" blocks up to 1.25 blocks high (e.g., a block and a slab) and receive a 4% permanent increase in movement speed.
+Chainmail armor, while available in the game and occasionally found in treasure chests or obtained from mobs, offers no additional benefits over iron armor despite its rarity. To enhance its utility and justify its rarity, this armor set has been revamped to facilitate exploration. When wearing the full set, you will automatically "climb" blocks up to 1.25 blocks high (e.g., a block and a slab) and receive a 4% permanent increase in movement speed. Additionally, the crafting recipe has also been added.
 ### Specifics
 * Helmet:
 	* +0.25 block height climb
@@ -61,16 +61,16 @@ Diamond armor, the original end-game armor, provides excellent defense but has b
 ### Specifics
 * Helmet:
 	* +0.5 Block place/break range
-	* +0.5 Entity interage/attack range
+	* +0.5 Entity interact/attack range
 * Chestplate:
 	* +1 Block place/break range
-	* +1 Entity interage/attack range
+	* +1 Entity interact/attack range
 * Leggings:
 	* +0.5 Block place/break range
-	* +0.5 Entity interage/attack range
+	* +0.5 Entity interact/attack range
 * Boots:
 	* +0.5 Block place/break range
-	* +0.5 Entity interage/attack range
+	* +0.5 Entity interact/attack range
 
 ## Netherite armor
 Netherite armor, the current best-in-slot end-game armor, provides excellent defense and has been minimally altered to preserve its top-tier status. To enhance its role in the "tank" category, making it ideal for sustaining damage during difficult encounters (such as pillager raids), the armor now grants additional knockback resistance and extra hearts when wearing the full set.
