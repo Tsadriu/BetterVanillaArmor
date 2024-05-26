@@ -38,7 +38,7 @@
               208
             ],
             "name": "Attack Speed",
-            "amount": 0.3,
+            "amount": 0.4,
             "operation": "add_value",
             "slot": "legs"
           }
