@@ -61,16 +61,16 @@ Diamond armor, the original end-game armor, provides excellent defense but has b
 ### Specifics
 * Helmet:
 	* +0.5 Block place/break range
-	* +0.5 Entity interage/attack range
+	* +0.5 Entity interact/attack range
 * Chestplate:
 	* +1 Block place/break range
-	* +1 Entity interage/attack range
+	* +1 Entity interact/attack range
 * Leggings:
 	* +0.5 Block place/break range
-	* +0.5 Entity interage/attack range
+	* +0.5 Entity interact/attack range
 * Boots:
 	* +0.5 Block place/break range
-	* +0.5 Entity interage/attack range
+	* +0.5 Entity interact/attack range
 
 ## Netherite armor
 Netherite armor, the current best-in-slot end-game armor, provides excellent defense and has been minimally altered to preserve its top-tier status. To enhance its role in the "tank" category, making it ideal for sustaining damage during difficult encounters (such as pillager raids), the armor now grants additional knockback resistance and extra hearts when wearing the full set.
